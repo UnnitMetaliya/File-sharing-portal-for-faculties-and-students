@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<!-- I HAVE COPIED SAME CSS OF INDEX.HTML FILE AS WE ARE SUPPOSED TO MAINTAIN THE FLOW OF DESIGN. SO YOU MAY FIND SOME UNNECESSARY TAGS IN CSS WHICH WERE IN INDEX.HTML BUT ARE NOT IN A PAGE3.HTML. I COULDN'T DELETE JUST BECAUSE OF TIME BUT LET IT BE, COZ AS YOU KNOW IT WON'T CREATE ANY ISSUES IF UNNECCESARY TAGS ARE THERE IN CSS. -->
+<html>
+<head>
+		
+		<link href="..\Front page\css\style3.css" rel='stylesheet' type='text/css' />
+		<title>Online_Repository</title>
+</head>
+<body>
+	<div class="header1">
+		<h1 text-align=left><a href="#">Online<span>_Repository</span></a></h1>
+		<ul style="text-align:right">
+		<li><a href="s_dashboard.html" class="scroll">HOME</a></li>
+		<li><a href="s_update.html" class="scroll">UPDATE ME</a><li>
+		<li><a href="i_am_student.html" class="scroll">LOGOUT</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<div class="header" >
+			<h1>Update Your Profile</h1>
+		</div>
+		
+			<form>
+				<ul class="left-form">
+					<h2>Your basic info:</h2>
+					<li>
+						<input type="text"   placeholder="Firstname" required/>
+						<div class="clear"> </div>
+					</li> <br>
+					<li>
+						<input type="text"   placeholder="Lastname" required/>
+						<div class="clear"> </div>
+					</li><br>
+					<label>Date of Birth: </label>
+						<select name="month" style="margin: 0px -0.3125px 0px 0px; width: 90px; height: 30px;">
+							<option value="na">Month</option>
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">March</option>
+							<option value="4">April</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
+						<select name="day" id="day" style="margin: 0px -0.3125px 0px 0px; width: 90px; height: 30px;">
+							<option value="na">Day</option>
+							<option value="d1">1</option>
+							<option value="d2">2</option>
+							<option value="d3">3</option>
+							<option value="d4">4</option>
+							<option value="d5">5</option>
+							<option value="d6">6</option>
+							<option value="d7">7</option>
+							<option value="d8">8</option>
+							<option value="d9">9</option>
+							<option value="d10">10</option>
+							<option value="d11">11</option>
+							<option value="d12">12</option>
+							<option value="d13">13</option>
+							<option value="d14">14</option>
+							<option value="d15">15</option>
+							<option value="d16">16</option>
+							<option value="d17">17</option>
+							<option value="d18">18</option>
+							<option value="d19">19</option>
+							<option value="d20">20</option>
+							<option value="d21">21</option>
+							<option value="d22">22</option>
+							<option value="d23">23</option>
+							<option value="d24">24</option>
+							<option value="d25">25</option>
+							<option value="d26">26</option>
+							<option value="d27">27</option>
+							<option value="d28">28</option>
+							<option value="d29">29</option>
+							<option value="d30">30</option>
+							<option value="d31">31</option>
+						</select>
+						<select name="year" id="year" style="margin: 0px -0.3125px 0px 0px; width: 90px; height: 30px;">
+							<option value="na">Year</option>
+							<option value="y0">1990</option>
+							<option value="y1">1991</option>
+							<option value="y2">1992</option>
+							<option value="y3">1993</option>
+							<option value="y4">1994</option>
+							<option value="y5">1995</option>
+							<option value="y6">1996</option>
+							<option value="y7">1997</option>
+							<option value="y">1998</option>
+						</select>
+	<br><br>
+	<label>Gender: </label>
+          <input type="radio" id="boy" value="boy" name="user_age"><label for="boy">Male</label>
+          <input type="radio" id="girl" value="girl" name="user_age"><label for="girl">Female</label>
+		  <br><br>
+		  <label>Residency: </label>
+          <input type="radio" id="hostel" value="hostel" name="user_res"><label for="hostel">Hostelite</label>
+          <input type="radio" id="local" value="hostel" name="user_res"><label for="hostel">Localite</label>
+		  <br><br>
+		  <h2>Your Interests:</h2>
+		  <label>Hobbies:</label><br><br>
+			<li>
+				<input type="text"   placeholder="" style="margin: 0px -0.3125px 0px 0px; width:90%; height: 15px;">
+				<div class="clear"> </div>
+			</li>
+			<li>
+				<input type="text"   placeholder="" style="margin: 0px -0.3125px 0px 0px; width: 90%; height: 15px;">
+				<div class="clear"> </div>
+			</li>
+			<li>
+				<input type="text"   placeholder="" style="margin: 0px -0.3125px 0px 0px; width: 90%; height: 15px;">
+				<div class="clear"> </div>
+			</li><br>
+			<label>Favourite Languages:</label><br><br>
+				<input type="checkbox"><label>C</label>
+				<input type="checkbox"><label>C++</label>
+				<input type="checkbox"><label>Java</label>
+				<input type="checkbox"><label>VB</label>
+				<input type="checkbox"><label>PHP</label><br><br>
+			<label>Interest Areas</label><br><br>
+				<div class="12u"><textarea name="message" placeholder="Research areas or field of interest" rows="6" style="margin: 0px -0.3125px 0px 0px; width: 400px; height: 100px;"></textarea></div>
+		</ul>
+				
+				<ul class="right-form">
+					<h3>Your Profile:</h3>
+					<div>
+						<label>Profile pic</label><br><br>
+						<img src="..\Front page\img\welcome1.jpg" name="profile" height="150px" width="150px"><br><br>
+						<label>Upload your profile</label><br><br>
+						<input type="file" value="Choose File"/><br><br>
+						<label for="bio">Biography:</label><br><br>
+						<div class="row 50%">
+									
+									<div class="12u"><textarea name="message" placeholder="Tell us something about yourself" rows="6" style="margin: 0px -0.3125px 0px 0px; width: 400px; height: 100px;"></textarea></div>
+						</div><br>
+						<label for="year">Year :</label><br><br>
+						<select style="margin: 0px -0.3125px 0px 0px; width: 90px; height: 30px;">
+							<option>1st</option>
+							<option>2nd</option>
+							<option>3rd</option>
+							<option>4th</option>
+						</select><br><br><br>
+						<!--<h2>Necessity:</h2> <!-- HEY ARVIND,NECESSITY PART I HAVE DONE IN A HURRY SO IT MAY LOOK LIT BIT DIZZY, SO TAKE A GOOD LOOK AT FILES & MAKE APPROPRIATE CHANGES AS NEEDED 
+							<label>Upload your I-Card:</label><br><br>
+							<input type="file" value="Choose File"><a href=""><span style="font-size:12px">&nbsp Why do I need to provide my I-card?</span></a><br><br>
+							<label>Upload your external exam Marksheet(Xerox-copy):</label><br><br>
+							<input type="file" value="Choose File"><a href=""><span style="font-size:12px">&nbsp Why do I need to provide my marksheet?</span></a>!-->
+							
+							
+					</div>
+					<h3>Social Links </h3>
+					<div>
+						<label>Linkinden</label><br><br>
+						<input type="text"   placeholder="" style="margin: 0px -0.3125px 0px 0px; width: 90%; height: 15px;"/><br><br>
+						<br><br><label>Personal website</label><br><br>
+						<input type="text"   placeholder="" style="margin: 0px -0.3125px 0px 0px; width: 90%; height: 15px;"/><br><br>
+					</div>
+					
+					<div class="clear"> </div>
+				</ul>
+				<div class="clear"> </div>
+				<center><input type="submit" value="Update" style="height:40px; width:90px;"></center>	
+			</form>
+	</div>
+	
+</body>
+</html>

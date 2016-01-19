@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Uploading Assignments</title>
+		<script src="..\Front page\scripts\jquery-1.11.2.js"></script>
+		<script src="..\Front page\scripts\MetroJs.js"></script>
+		<link rel="stylesheet" href="..\Front page\css\MetroJs2.css" type="text/css"/>
+		<link href="..\Front page\css\s_dashboard.css" rel='stylesheet' type='text/css' />
+		<link href="..\Front page\css\style.css" rel='stylesheet' type='text/css' />
+    	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+	<div class="header1">
+		<h1 text-align=left><a href="index.html">Online<span>_Repository</span></a></h1>
+		<ul style="text-align:right">
+		<li><a href="#" class="scroll">HOME</a></li>
+		<li><a href="p_update.html" class="scroll">UPDATE ME</a><li>
+		<li><a href="i_am_proffesor.html" class="scroll">LOGOUT</a></li>
+		</ul>
+	</div>
+
+		<div class="ass_upload">
+		<div class="ass_form"> 
+		<form action="..\Front page\php\add_file.php" method="POST" enctype="multipart/form-data">
+			<label>Subject:</label><br><br>
+			<input type="text" name="subject" id="subject" placeholder="e.g. Software Engineering"></input><br><br>
+			<label>Title:</label><br><br>
+			<input type="text" name="title" id="title" placeholder="e.g. Assignment-1"></input><br><br>
+			<label>Deadline:</label><br><br>
+			<input type="text" name="deadline" id="deadline" placeholder="e.g. DD/MM/YY"></input><br><br>
+			<label>Description:</label><br><br>
+			<input type="textarea" class="textarea" name="description" id="description"></input><br><br>
+			<input type="file" name="files" id="files"></input><br><br>
+			<input type="submit" value="Upload File">
+
+		</form>
+	</div>
+	</div>
+
+</body>
+</html>
